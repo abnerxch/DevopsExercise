@@ -1,14 +1,12 @@
-package com.company;
-
 import java.util.Scanner;
 
 public class Main {
-    static com.company.Edad edad = new com.company.Edad();
-    static com.company.Sexo sexo = new com.company.Sexo();
-    static com.company.Nota nota = new com.company.Nota();
-    static com.company.ID id = new com.company.ID();
-    static com.company.Nombre nombre = new com.company.Nombre();
-    static com.company.Nacimiento nacimiento = new com.company.Nacimiento();
+    static Edad edad = new Edad();
+    static Sexo sexo = new Sexo();
+    static Nota nota = new Nota();
+    static ID id = new ID();
+    static Nombre nombre = new Nombre();
+    static Nacimiento nacimiento = new Nacimiento();
 
     public static void main(String[] args) {
 
