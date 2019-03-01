@@ -7,7 +7,7 @@ public class TestNombre {
     String expected5;
     String largoNombre;
 
-    @Test
+    @Test (groups= "testing Devops")
     public void testNombreInvalid(){
         Nombre nombre = new Nombre();
         expected5 = "Debe ingresar el nombre";
@@ -16,7 +16,7 @@ public class TestNombre {
         Assert.assertEquals(expected5, nombre.aviso5);
     }
 
-    @Test
+    @Test (groups= "testing Devops")
     public void testNombreCorrecto(){
         Nombre nombre = new Nombre();
         Random random = new Random();
@@ -39,7 +39,7 @@ public class TestNombre {
         Assert.assertEquals(expected5, nombre.aviso5);
     }
 
-    @Test
+    @Test (groups= "testing Devops")
     public void testNombreLargo(){
 
         Nombre nombre = new Nombre();
