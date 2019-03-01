@@ -7,7 +7,7 @@ public class TestID {
     String expected2;
     int IDPersona;
 
-    @Test
+    @Test (groups= "testing Devops")
     public void testIDInvalid1(){
 
         ID id  = new ID();
@@ -22,7 +22,7 @@ public class TestID {
         Assert.assertEquals(expected2, id.aviso2);
     }
 
-    @Test
+    @Test (groups= "testing Devops")
     public void testIDInvalid2(){
         ID id  = new ID();
         Random random = new Random();
@@ -36,7 +36,7 @@ public class TestID {
         Assert.assertEquals(expected2, id.aviso2);
     }
 
-    @Test
+    @Test (groups= "testing Devops")
     public void testIDPrimer(){
         ID id  = new ID();
         Random random = new Random();
