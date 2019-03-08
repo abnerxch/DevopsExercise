@@ -16,7 +16,7 @@ public class TestNombre {
         Assert.assertEquals(expected5, nombre.aviso5);
     }
 
-    @Test (groups= {"Testing Nombre"}, description = "Test valid name)
+    //@Test (groups= {"Testing Nombre"}, description = "Test valid name)
     public void testNombreCorrecto(){
         Nombre nombre = new Nombre();
         Random random = new Random();
@@ -29,7 +29,8 @@ public class TestNombre {
 
         else {
 
-            for(int i = 0; i <= nombreRandom; i++){
+            for(int i= 0; i <= nombreRandom; i++)
+            {
                 largoNombre += "C";
             }
 

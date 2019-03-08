@@ -8,7 +8,7 @@ public class Nacimiento {
         x = na.length();
 
         //cambio
-        if(x >= 31)
+        if(x > 30)
         {
 
             //Don´t accept places with 30+ characters
@@ -30,7 +30,7 @@ public class Nacimiento {
 
             //Succeess!
 
-=======
+
 
 
             aviso6 = "Lugar de nacimiento guardado correctamente";

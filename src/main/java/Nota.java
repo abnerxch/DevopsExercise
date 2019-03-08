@@ -2,7 +2,7 @@ public class Nota {
     String aviso3;
     public  void val(int nota){
         //cambio
-        if(nota < 0 || nota >= 101)
+        if(nota < 0 || nota > 100)
         {
 
             //Don´t accept negative grades neither 100+ grades
