@@ -4,15 +4,18 @@ public class Nota {
 
         if(nota < 0 || nota > 100)
         {
-            System.out.println("Ingrese una opción válida");
+
             aviso3 = "Ingrese una opción válida";
+            System.out.println(aviso3);
 
         }else if(nota>=0 && nota <= 60){
-            System.out.println("REPROBADO");
+
             aviso3 = "REPROBADO";
+            System.out.println(aviso3);
         }else{
-            System.out.println("APROBADO");
+
             aviso3 = "APROBADO";
+            System.out.println(aviso3);
         }
     }
 }

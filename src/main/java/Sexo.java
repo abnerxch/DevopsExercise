@@ -9,18 +9,21 @@ String hombre = "M";
 String mujer = "F";
         if(s.equals(hombre))
         {
-            System.out.println("Masculino");
+
             aviso4 = "Masculino";
+            System.out.println(aviso4);
 
         }
         else
             if(s.equals(mujer)){
-            System.out.println("Femenino");
+
             aviso4 = "Femenino";
+            System.out.println(aviso4);
         }
             else{
-            System.out.println("Ingrese una opción válida");
+
             aviso4 = "Ingrese una opción válida";
+                System.out.println(aviso4);
         }
     }
 
