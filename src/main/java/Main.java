@@ -18,6 +18,7 @@ public class Main {
                 case 1:
                     String no;
                     System.out.println("Ingrse su nombre");
+
                     no = sc.nextLine();
                     nombre.val(no);
 
@@ -26,8 +27,12 @@ public class Main {
                 case 2:
                     int ed;
                     System.out.println("Ingrese su edad");
-                    ed = sc.nextInt();
 
+                    ed = sc.nextInt();
+                    //cambio
+                    if(ed==6){
+                        System.out.println("Tienes 6 años");
+                    }
                     edad.val(ed);
                     break;
 
