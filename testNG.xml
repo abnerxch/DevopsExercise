@@ -5,8 +5,12 @@
         <groups>
             <run>
                 <exclude name="brokenTests" />
-                <include name="testing" />
-                <include name="testing2"/>
+                <include name="Testing Edad" />
+                <include name="Testing ID"/>
+                <include name="Testing Nacimiento"/>
+                <include name="Testing Nombre"/>
+                <include name="Testing Nota"/>
+                <include name="Testing Sexo"/>
             </run>
         </groups>
         <classes>
@@ -23,4 +27,4 @@
         <listener class-name="ListenerSuite"/>
         <listener class-name="ListenerTest"/>
     </listeners>
-</suite>
+</suite> 
