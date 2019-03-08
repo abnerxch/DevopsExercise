@@ -10,17 +10,20 @@ public class Nombre {
         //cambio
         if(x >= 25)
         {
-            System.out.println("El nombre ingresado es demasiado largo");
+
             aviso5 = "El nombre ingresado es demasiado largo";
+            System.out.println(aviso5);
         }
         else if (x == 0){
-            System.out.println("Debe ingresar el nombre");
+
             aviso5 = "Debe ingresar el nombre";
+            System.out.println(aviso5);
         }
 
         else{
-            System.out.println("Nombre guardado correctamente");
+
             aviso5 = "Nombre guardado correctamente";
+            System.out.println(aviso5);
         }
     }
 }

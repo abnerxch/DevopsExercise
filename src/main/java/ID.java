@@ -10,17 +10,23 @@ public class ID {
         //1501 a 2000 = Segundo semestre
 
         if (i >= 1000 && i <= 1500) {
-            System.out.println("Primer Semestre");
+
             aviso2 = "Primer Semestre";
+            System.out.println(aviso2);
 
 
-        } else if (i >= 1501 && i <= 2000)
-        {System.out.println("Segundo Semestre");
-        aviso2 = "Segundo Semestre";}
+        }
+        else
+            if (i >= 1501 && i <= 2000)
+        {
+        aviso2 = "Segundo Semestre";
+        System.out.println(aviso2);
+        }
 
         else{
-            System.out.println("Ingrese un ID válido");
+
             aviso2 = "Ingrese un ID válido";
+            System.out.println(aviso2);
         }
 
 
