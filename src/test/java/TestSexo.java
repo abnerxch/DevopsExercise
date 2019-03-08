@@ -7,7 +7,7 @@ public class TestSexo {
     String expected4;
     String sexoPersona;
 
-    @Test (groups= "testing Devops")
+    @Test (groups= {"Testing Sexo"}, description = "Test male")
     public void testSexoM(){
         Sexo sexo = new Sexo();
         expected4 = "Masculino";
@@ -17,7 +17,7 @@ public class TestSexo {
         Assert.assertEquals(expected4, sexo.aviso4);
     }
 
-    @Test (groups= "testing Devops")
+    @Test (groups= {"Testing Sexo"}, description = "Test female")
     public void testSexoF(){
         Sexo sexo = new Sexo();
         expected4 = "Femenino";
@@ -27,7 +27,7 @@ public class TestSexo {
         Assert.assertEquals(expected4, sexo.aviso4);
     }
 
-    @Test (groups= "testing Devops")
+    @Test (groups= {"Testing Sexo"}, description = "Test invalid gender")
     public void testSexoInvalid(){
         Sexo sexo = new Sexo();
         expected4 = "Ingrese una opción válida";
