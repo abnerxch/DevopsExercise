@@ -10,6 +10,10 @@ String mujer = "F";
         if(s.equals(hombre))
         {
 
+            //Male condition
+
+
+
             aviso4 = "Masculino";
             System.out.println(aviso4);
 
@@ -17,10 +21,16 @@ String mujer = "F";
         else
             if(s.equals(mujer)){
 
+                //Female condition
+
+
+
             aviso4 = "Femenino";
             System.out.println(aviso4);
         }
             else{
+
+                //Male or female only
 
             aviso4 = "Ingrese una opción válida";
                 System.out.println(aviso4);

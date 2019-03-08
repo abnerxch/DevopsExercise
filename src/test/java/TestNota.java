@@ -7,7 +7,7 @@ public class TestNota {
     String expected3;
     int notaPersona;
 
-    @Test (groups= "testing Devops")
+    @Test (groups= {"Testing Nota"}, description = "Test invalid grade")
     public void testNotaInvalid1(){
         Nota nota = new Nota();
         Random random = new Random();
@@ -21,7 +21,7 @@ public class TestNota {
         Assert.assertEquals(expected3, nota.aviso3);
     }
 
-    @Test (groups= "testing Devops")
+    @Test (groups= {"Testing Nota"}, description = "Test reprobado grade")
     public void testNotaRepro(){
 
         Nota nota = new Nota();
@@ -32,7 +32,7 @@ public class TestNota {
         Assert.assertEquals(expected3, nota.aviso3);
     }
 
-    @Test (groups= "testing Devops")
+    @Test (groups= {"Testing Nota"}, description = "Test aprobado grade")
     public void testNotaApro(){
 
         Nota nota = new Nota();
