@@ -8,7 +8,7 @@ public class TestNacimiento {
     String expected6;
     String lugarPersona;
 
-    @Test (groups= "testing Devops")
+    @Test (groups= {"Testing Nacimiento"}, description = "Test invalid Place")
     public void testLugarInvalid(){
         Nacimiento nacimiento = new Nacimiento();
         expected6 = "Debe ingresar el lugar de nacimiento";
@@ -17,7 +17,7 @@ public class TestNacimiento {
         Assert.assertEquals(expected6, nacimiento.aviso6);
     }
 
-    @Test (groups= "testing Devops")
+    @Test (groups= {"Testing Nacimiento"}, description = "Test success place")
     public void testLugarCorrecto(){
         Nacimiento nacimiento = new Nacimiento();
         Random random = new Random();
@@ -40,7 +40,7 @@ public class TestNacimiento {
         Assert.assertEquals(expected6, nacimiento.aviso6);
     }
 
-    @Test (groups= "testing Devops")
+    @Test (groups= {"Testing Nacimiento"}, description = "Test large name place")
     public void testLugarLargo(){
 
         Nacimiento nacimiento = new Nacimiento();

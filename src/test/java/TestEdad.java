@@ -8,7 +8,7 @@ public class TestEdad {
     String expected1;
     int edadPersona;
 
-    @Test (groups= "testing Devops")
+    @Test (groups= {"Testing Edad"}, description = "Test invalid age")
     public void testEdadInvalid(){
         Edad edad = new Edad();
         Random random = new Random();
@@ -21,7 +21,7 @@ public class TestEdad {
         Assert.assertEquals(edad.aviso1, expected1);
     }
 
-    @Test (groups= "testing Devops")
+    @Test (groups= {"Testing Edad"}, description = "Test younger age")
     public void testEdadYounger(){
         Edad edad = new Edad();
         Random random = new Random();
@@ -31,7 +31,7 @@ public class TestEdad {
         Assert.assertEquals(edad.aviso1, expected1);
     }
 
-    @Test (groups= "testing Devops")
+    @Test (groups= {"Testing Edad"}, description = "Test adult age")
     public void testEdadAdult(){
         Edad edad = new Edad();
         Random random = new Random();

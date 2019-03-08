@@ -4,15 +4,28 @@ public class Nota {
         //cambio
         if(nota < 0 || nota >= 101)
         {
-            System.out.println("Ingrese una opción válida");
+
+            //Don´t accept negative grades neither 100+ grades
+
+
             aviso3 = "Ingrese una opción válida";
+            System.out.println(aviso3);
 
         }else if(nota>=0 && nota <= 60){
-            System.out.println("REPROBADO");
+
+            //Reprobado condition
+
+
+
             aviso3 = "REPROBADO";
+            System.out.println(aviso3);
         }else{
-            System.out.println("APROBADO");
+
+
+            //Aprobado condition
+
             aviso3 = "APROBADO";
+            System.out.println(aviso3);
         }
     }
 }
