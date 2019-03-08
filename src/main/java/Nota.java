@@ -1,8 +1,8 @@
 public class Nota {
     String aviso3;
     public  void val(int nota){
-
-        if(nota < 0 || nota > 100)
+        //cambio
+        if(nota < 0 || nota >= 100)
         {
             System.out.println("Ingrese una opción válida");
             aviso3 = "Ingrese una opción válida";
