@@ -16,14 +16,15 @@ public class Main {
             op =menu();
             switch(op){
                 case 1:
+                    //Insert name option
                     String no;
                     System.out.println("Ingrse su nombre");
                     no = sc.nextLine();
                     nombre.val(no);
-
                     break;
 
                 case 2:
+                    //Insert age option
                     int ed;
                     System.out.println("Ingrese su edad");
                     ed = sc.nextInt();
@@ -32,21 +33,25 @@ public class Main {
                     break;
 
                 case 3:
+                    //Add gender option
                     String s;
-                    System.out.println("Ingrse su sexo");
+                    System.out.println("Ingrese su sexo");
                     s = sc.nextLine();
                     s = s.toUpperCase();
                     System.out.println(s);
                     sexo.val(s);
                     break;
+
                 case 4:
+                    //Add place option
                     String na;
                     System.out.println("Ingrse su lugar de nacimiento");
                     na = sc.nextLine();
                     nacimiento.val(na);
-
                     break;
+
                 case 5:
+                    //Insert ID option
                     int i;
                     System.out.println("Ingrese su ID");
                     i = sc.nextInt();
@@ -54,12 +59,14 @@ public class Main {
 
                     break;
                 case 6:
+                    //Grades option
                     int n;
                     System.out.println("Ingrese su calificación");
                     n = sc.nextInt();
                     nota.val(n);
                     break;
                 case 0:
+                    //Program out
                     System.out.println("Usted ha salido del programa");
 
                     break;
@@ -72,6 +79,7 @@ public class Main {
     }
 
     public static int menu(){
+        //main menu, for users
         int op;
         Scanner sc= new Scanner (System.in);
         do{
