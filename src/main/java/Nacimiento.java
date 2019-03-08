@@ -8,7 +8,7 @@ public class Nacimiento {
         x = na.length();
 
         //cambio
-        if(x >= 29)
+        if(x >= 31)
         {
             System.out.println("El lugar ingresado es demasiado largo");
             aviso6 = "El lugar ingresado es demasiado largo";
