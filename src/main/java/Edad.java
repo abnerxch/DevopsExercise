@@ -10,16 +10,19 @@ String aviso1;
 
         if(ed <0)
         {
-            System.out.println("Ingrese una opción válidad");
+
             aviso1 = "Ingrese una opción válidad";
+            System.out.println(aviso1);
 
 
         }else if(ed<18 && ed >= 0){
-            System.out.println("Younger");
+
             aviso1 = "Younger";
+            System.out.println(aviso1);
         }else{
-            System.out.println("Adult");
+
             aviso1 = "Adult";
+            System.out.println(aviso1);
         }
 
         return;
