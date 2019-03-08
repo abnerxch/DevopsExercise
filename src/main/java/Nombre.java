@@ -7,8 +7,8 @@ public class Nombre {
         int x ;
         x = no.length();
 
-
-        if(x > 20)
+        //cambio
+        if(x >= 25)
         {
             System.out.println("El nombre ingresado es demasiado largo");
             aviso5 = "El nombre ingresado es demasiado largo";
