@@ -7,25 +7,34 @@ public class Nacimiento {
         int x;
         x = na.length();
 
-
-        if(x > 30)
+        //cambio
+        if(x >= 31)
         {
+
             //Don´t accept places with 30+ characters
             System.out.println("El lugar ingresado es demasiado largo");
+
             aviso6 = "El lugar ingresado es demasiado largo";
+            System.out.println(aviso6);
         }
 
         else if (x == 0){
+
             //User would insert a place
-            System.out.println("Debe ingresar el lugar de nacimiento");
+
             aviso6 = "Debe ingresar el lugar de nacimiento";
+            System.out.println(aviso6);
         }
 
         else{
+
             //Succeess!
 
-            System.out.println("Lugar de nacimiento guardado correctamente");
+=======
+
+
             aviso6 = "Lugar de nacimiento guardado correctamente";
+            System.out.println(aviso6);
         }
     }
 

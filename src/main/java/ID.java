@@ -9,22 +9,26 @@ public class ID {
         //de 1000 a 1500 = Primer semestre
         //1501 a 2000 = Segundo semestre
 
-        if (i >= 1000 && i <= 1500) {
-            //First semester ID
-            System.out.println("Primer Semestre");
+
+if (i >= 1000 && i <= 1500) {
+  //first semester
             aviso2 = "Primer Semestre";
-
-
-        } else if (i >= 1501 && i <= 2000)
+            System.out.println(aviso2);
+        }
+           
+        else
+            if (i >= 1501 && i <= 2000)
         {
-            //Second semester ID
-            System.out.println("Segundo Semestre");
-        aviso2 = "Segundo Semestre";}
+               //Second semester ID
+        aviso2 = "Segundo Semestre";
+        System.out.println(aviso2);
+        }
 
         else{
-            //Don´t accept negative ID
-            System.out.println("Ingrese un ID válido");
+          
+          //invalid ID
             aviso2 = "Ingrese un ID válido";
+            System.out.println(aviso2);
         }
 
 

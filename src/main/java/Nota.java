@@ -1,22 +1,31 @@
 public class Nota {
     String aviso3;
     public  void val(int nota){
-
-        if(nota < 0 || nota > 100)
+        //cambio
+        if(nota < 0 || nota >= 101)
         {
+
             //Don´t accept negative grades neither 100+ grades
-            System.out.println("Ingrese una opción válida");
+
+
             aviso3 = "Ingrese una opción válida";
+            System.out.println(aviso3);
 
         }else if(nota>=0 && nota <= 60){
+
             //Reprobado condition
-            System.out.println("REPROBADO");
+
+
+
             aviso3 = "REPROBADO";
+            System.out.println(aviso3);
         }else{
 
+
             //Aprobado condition
-            System.out.println("APROBADO");
+
             aviso3 = "APROBADO";
+            System.out.println(aviso3);
         }
     }
 }
