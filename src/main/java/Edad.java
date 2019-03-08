@@ -10,7 +10,7 @@ String aviso1;
 
         if(ed <0)
         {
-            System.out.println("Ingrese una opción válidad");
+            System.out.println("Ingrese una opción válidad, por favor");
             aviso1 = "Ingrese una opción válidad";
 
 
